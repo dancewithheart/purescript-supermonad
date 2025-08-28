@@ -16,7 +16,7 @@ jobs:
       - uses: actions/checkout@v3
 
       - name: Set up a PureScript toolchain
-        uses: purescript-contrib/setup-purescript@v3
+        uses: purescript-contrib/setup-purescript@v3.1.0
         with:
           purescript: latest
           spago: latest
